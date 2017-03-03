@@ -4,14 +4,14 @@
 
 	<groupId>kmi</groupId>
 	<artifactId>taa</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>taa</name>
-	<url>http://maven.apache.org</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<license.licenseName>apache_v2</license.licenseName>
 	</properties>
 
 	<dependencies>
@@ -58,7 +58,7 @@
 			<artifactId>esom</artifactId>
 			<version>1.1</version>
 			<scope>system</scope>
-			<systemPath>${basedir}/src/lib/esom-1.1.jar</systemPath>
+			<systemPath>${basedir}/lib/esom-1.1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>javax.ws.rs</groupId>
@@ -71,7 +71,6 @@
 			<artifactId>jersey-client</artifactId>
 			<version>2.25.1</version>
 		</dependency>
-
 	</dependencies>
 
 	<build>
@@ -101,9 +100,9 @@
 								<argument>--wklabels</argument>
 								<argument>./src/main/resources/wikidata-properties-label.csv</argument>
 								<argument>--pyPath</argument>
-								<argument>/usr/local/bin/python2</argument>
+								<argument>/usr/local/bin/python3</argument>
 								<argument>--mPath</argument>
-								<argument>./python/</argument>
+								<argument>/Users/jenny/bin/</argument>
 								<argument>-i</argument>
 								<argument>./instances/striples_m01.txt</argument>
 								<argument>--pptysn</argument>
@@ -119,31 +118,6 @@
 								<argument>--beta</argument>
 								<argument>0.999</argument>
 							</arguments>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>license-maven-plugin</artifactId>
-				<version>1.12</version>
-				<configuration>
-					<verbose>false</verbose>
-					<addSvnKeyWords>true</addSvnKeyWords>
-				</configuration>
-				<executions>
-					<execution>
-						<id>first</id>
-						<goals>
-							<goal>update-file-header</goal>
-						</goals>
-						<phase>process-sources</phase>
-						<configuration>
-							<licenseName>gpl_v3</licenseName>
-							<roots>
-								<root>src/main/java</root>
-								<root>src/test/java</root>
-							</roots>
 						</configuration>
 					</execution>
 				</executions>
