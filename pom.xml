@@ -101,9 +101,9 @@
 								<argument>--wklabels</argument>
 								<argument>./src/main/resources/wikidata-properties-label.csv</argument>
 								<argument>--pyPath</argument>
-								<argument>/usr/local/bin/python3</argument>
+								<argument>/usr/local/bin/python2</argument>
 								<argument>--mPath</argument>
-								<argument>/Users/jenny/bin/</argument>
+								<argument>./python/</argument>
 								<argument>-i</argument>
 								<argument>./instances/striples_m01.txt</argument>
 								<argument>--pptysn</argument>
