@@ -55,7 +55,7 @@ import kmi.taa.stringsimilarity.StringSimilarityMeasurer;
 public class App {
 	final static Logger log = Logger.getLogger(App.class.getName());
 	//fixed_params:
-	private String proxy;
+	private String proxy = "";
 	private String wklabels; //path to resource file of wikidata properties labels
 	private String pyPath; //absolute path to the python software
 	private String mPath; //absolute path to python scripts e.g. compF1.py to calculate F-measure
@@ -76,6 +76,7 @@ public class App {
     		simMap = loadSimilarityMap();
 		} catch (IOException e) {
 			log.error("Load similarity map error", e);
+	
 		}
     }
 	
