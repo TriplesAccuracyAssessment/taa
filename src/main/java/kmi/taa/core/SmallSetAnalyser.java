@@ -40,11 +40,11 @@ public class SmallSetAnalyser {
 	protected HashMap<Integer, Double> hmf = new HashMap<>();
 	protected Vector<Integer> notol = new Vector<>();
 		
-	public void run(String factTriplesFile, String outlierrmFile, String outputFile, double threshold, String pptytype) {		
+	public void run(String sourceTriplesFile, String outlierrmFile, String outputFile, double threshold, String pptytype) {		
 		hm.clear();
 		hmf.clear();
 		notol.clear();		
-		readSourceTriples(factTriplesFile);			
+		readSourceTriples(sourceTriplesFile);			
 		constructSmallSet(outlierrmFile);
 		//detect outliers from a small set of numbers
 		detect(threshold, pptytype);				
