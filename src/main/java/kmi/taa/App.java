@@ -98,6 +98,7 @@ public class App {
 		}
 		HashMap<Integer,String> confMap = new HashMap<>();
 		r.calculateConfidence(r.workDir, r.pptysn, r.pptytype, confMap);
+		
 		HashMap<Integer, String> stMap = new HashMap<>();
 		FileHelper.readFileToMap(r.instance, stMap);
 		StringBuilder builder = new StringBuilder();
@@ -190,7 +191,7 @@ public class App {
 		SmallSetAnalyser ssa = new SmallSetAnalyser();		
 
 		// convert date property into the second format
-		if (pptysn.toLowerCase().contains("date")) {
+		if (pptytype.toLowerCase().contains("date")) {
 			FactTriples ft = new FactTriples();
 			ft.convertDate(sourceTriples, workDir + "sourceTriples_converted" + pptysn + ".txt");
 		} else {
