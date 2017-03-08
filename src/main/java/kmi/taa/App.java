@@ -90,6 +90,8 @@ public class App {
 			writeSimilarityMap(simMap);
 		} catch (URISyntaxException e) {
 			log.error("Matching target tripls error", e);
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
 		if(!flag) {
 			System.out.println("No matched triples are found.");

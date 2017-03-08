@@ -373,16 +373,19 @@ public class PredicateObjectRetriever {
 		return builder.toString();
 	}
 	
-	public String readRDF(String url, String lang) throws UnsupportedEncodingException {
+	public String readRDF(String url, String lang) {
 		StringBuilder builder = new StringBuilder();
 				
 		Model model = ModelFactory.createDefaultModel();
-		try {
+		try{
 			if(lang != null) {
 				model.read(url, lang);
 			} else {
 				model.read(url);
 			}
+		} catch(Exception e) {
+			return "";
+		}
 						
 			StmtIterator it = model.listStatements();
 			while(it.hasNext()) {
@@ -390,14 +393,17 @@ public class PredicateObjectRetriever {
 				Property ppty = stmt.getPredicate();				
 				RDFNode obj = stmt.getObject();
 				String objcleaned = removeType(obj.toString());				
-				builder.append(URLDecoder.decode(ppty.getURI(), "UTF-8")+"\t"+objcleaned);
-				builder.append(System.lineSeparator());
+				try {
+					builder.append(URLDecoder.decode(ppty.getURI(), "UTF-8")+"\t"+objcleaned);
+					builder.append(System.lineSeparator());
+				} catch (UnsupportedEncodingException e) {
+					continue;
+				}
+				
 			}
 			
 			return builder.toString();
-		} catch (Exception e) {
-			return "";
-		}
+		
 	}
 	
 	public String readRDF(InputStream istream, String base) {

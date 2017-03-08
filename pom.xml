@@ -4,7 +4,7 @@
 
 	<groupId>kmi</groupId>
 	<artifactId>taa</artifactId>
-	<version>0.1-SNAPSHOT</version>
+	<version>0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>taa</name>
@@ -73,25 +73,25 @@
 			<artifactId>commons-math3</artifactId>
 			<version>3.5</version>
 		</dependency>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>databionics</groupId>
 			<artifactId>esom</artifactId>
 			<version>1.1</version>
 			<scope>system</scope>
 			<systemPath>${basedir}/src/lib/esom-1.1.jar</systemPath>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>javax.ws.rs</groupId>
 			<artifactId>javax.ws.rs-api</artifactId>
 			<version>2.0.1</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client -->
+ 		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client -->
 		<dependency>
 			<groupId>org.glassfish.jersey.core</groupId>
 			<artifactId>jersey-client</artifactId>
-			<version>2.25.1</version>
+			<version>2.25</version>
 		</dependency>
-	</dependencies>
+ 	</dependencies>
 
 	<build>
 		<plugins>
@@ -118,6 +118,26 @@
 						</configuration>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-install-plugin</artifactId>
+			    <version>2.5.2</version>
+			    <executions>
+			        <execution>
+			            <phase>initialize</phase>
+			            <goals>
+			                <goal>install-file</goal>
+			            </goals>
+			            <configuration>
+			                <groupId>databionics</groupId>
+			                <artifactId>esom</artifactId>
+			                <version>1.1</version>
+			                <packaging>jar</packaging>
+			                <file>${basedir}/src/lib/esom-1.1.jar</file>
+			            </configuration>
+			        </execution>
+			    </executions>
 			</plugin>
 		</plugins>
 	</build>

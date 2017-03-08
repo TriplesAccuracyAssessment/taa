@@ -1,0 +1,226 @@
+pair,score
+birth Date_parent Country,0.71349933959
+birth Date_NTA identifier (Netherlands),0.363636363636
+birth Date_CANTIC,0.0
+birth Date_Encyclop�_dia Britannica Online ID,0.0
+birth Date_BnF identifier,0.363636363636
+birth Date_ PP,0.0
+birth Date_official website,0.570361957782
+birth Date_place of birth,0.809070622239
+birth Date_title,0.491376188897
+birth Date_official Name,0.671665547486
+birth Date_KulturNav-id,0.0
+birth Date_handedness,0.426181934447
+birth Date_Munzinger IBA,0.0
+birth Date_original language of work,0.513230236511
+birth Date_language of work (or name),0.48026225454
+birth Date_flag image,0.693803076934
+birth Date_NLP identifier,0.360962566845
+birth Date_FilmAffinity identifier,0.363636363636
+birth Date_Rotten Tomatoes identifier,0.52394442059
+birth Date_member of political party,0.716845832636
+birth Date_PTBNP identifier,0.363636363636
+birth Date_genre,0.487543383962
+birth Date_native language,0.643225881129
+birth Date_ Mx4r BVVEok Nx Eda AAACgydog Ag,0.366926529034
+birth Date_ULAN identifier,0.363636363636
+birth Date_children Features,0.673152557866
+birth Date_locator map image,0.689648409276
+birth Date_Politifact Personality Identifier,0.490527052702
+birth Date_BAV (Vatican Library) identifier,0.363636363636
+birth Date_NLI (Israel) identifier,0.363636363636
+birth Date_award received,0.347270786587
+birth Date_cause of death,0.780035381729
+birth Date_null,0.584957404837
+birth Date_gadm level,0.514800381269
+birth Date_parent ADM1,0.737467709429
+birth Date_director,0.618092084891
+birth Date_image of grave,0.695559493789
+birth Date_wikipedia Article,0.529777032923
+birth Date_medical condition,0.537928814574
+birth Date_VIAF identifier,0.363636363636
+birth Date_film editor,0.628059464214
+birth Date_SELIBR,0.0
+birth Date_nearby Features,0.487633235533
+birth Date_screenwriter,0.618092084891
+birth Date_Commons category,0.433070674257
+birth Date_wikipedia Article URL,0.41255577938
+birth Date_flag,0.618092084891
+birth Date_Danish National Filmography ID,0.595124398551
+birth Date_statements,0.532991013368
+birth Date_license,0.491376188897
+birth Date_SFDb person ID,0.658470758454
+birth Date_modified,0.0
+birth Date_NSK identifier,0.363636363636
+birth Date_about,0.0
+birth Date_work location,0.546789111134
+birth Date_color,0.5
+birth Date_production company,0.714905582704
+birth Date_GND identifier,0.363636363636
+birth Date_place of death,0.733731763769
+birth Date_narrative location,0.537071498889
+birth Date_see Also URI,0.323878319538
+birth Date_broader Term,0.739051857419
+birth Date_NDL identifier,0.363636363636
+birth Date_country of citizenship,0.477520681161
+birth Date_blood type,0.678838422626
+birth Date_Find a Grave grave ID,0.549959953266
+birth Date_MovieMeter movie ID,0.482497855975
+birth Date_publication date,0.783769214674
+birth Date_sister city,0.647471630215
+birth Date_name in kana,0.589366698865
+birth Date_country of origin,0.614845759673
+birth Date_British Museum person-institution,0.459641107145
+birth Date_place of burial,0.518860982464
+birth Date_described by source,0.527204440726
+birth Date_dmoz,0.0
+birth Date_family name,0.679348096524
+birth Date_ Mx4r ZOAVei YGEdq AAAACs2 IMmw,0.0
+birth Date_description,0.524837591962
+birth Date_local dialing code,0.367615641984
+birth Date_noble family,0.685285432286
+birth Date_iso,0.0
+birth Date_child,0.731315075943
+birth Date_NKC identifier,0.363636363636
+birth Date_spouse,0.689222111058
+birth Date_same As,0.610052060754
+birth Date_Gran Enciclop̬dia Catalana ID,0.0
+birth Date_see Also,0.342148789749
+birth Date_LCAuth identifier,0.363636363636
+birth Date_AllMovie movie ID,0.482497855975
+birth Date_valid to,0.0
+birth Date_religion,0.504441999767
+birth Date_attribution URL,0.322159996209
+birth Date_has code,0.4
+birth Date_MusicBrainz artist ID,0.582177475261
+birth Date_primary Topic Of,0.482631787441
+birth Date_NNDB people ID,0.445151575663
+birth Date_number of children,0.728475780947
+birth Date_AllMovie artist ID,0.582177475261
+birth Date_manner of death,0.733512311531
+birth Date_NUKAT (WarsawU) authorities,0.644891802201
+birth Date_mother,0.618092084891
+birth Date_position held,0.434832871559
+birth Date_located in the administrative territorial entity,0.465059365155
+birth Date_geometry,0.314648409276
+birth Date_occupation,0.714680698861
+birth Date_languages spoken or written,0.450410863173
+birth Date_signature,0.5
+birth Date_Freebase identifier,0.363636363636
+birth Date_alternate Name,0.651718727421
+birth Date_BIBSYS identifier,0.363636363636
+birth Date_GeoNames ID,0.362587470441
+birth Date_head of government,0.684085078154
+birth Date_feature Class,0.6307892015
+birth Date_father,0.689222111058
+birth Date_seal image,0.684849607638
+birth Date_Rodovid ID,0.362587470441
+birth Date_ Mx4r Tv-jk9 SPTXa991kk5m Av Hg,0.577205277938
+birth Date_birth name,0.857406649389
+birth Date_genealogics.org person ID,0.658470758454
+birth Date_Open Library identifier,0.432387067759
+birth Date_Project Gutenberg author ID,0.652070408271
+birth Date_native label,0.662012336515
+birth Date_label,0.497831977625
+birth Date_preferred Label,0.464934691823
+birth Date_topic's main category,0.420038315777
+birth Date_distributor,0.689222111058
+birth Date_attribution Name,0.57043260932
+birth Date_AlloCin̩ person ID,0.0
+birth Date_coordinate location,0.558594698128
+birth Date_external ID,0.378938284051
+birth Date_location Map,0.562478355891
+birth Date_comment,0.469424669725
+birth Date_ethnic group,0.689996689145
+birth Date_Commons gallery,0.552160815684
+birth Date_LNB identifier,0.363636363636
+birth Date_Box Office Mojo film ID,0.489802611207
+birth Date_gadm id,0.362587470441
+birth Date_primary Topic,0.508091071697
+birth Date_pretty String,0.47920229734
+birth Date_in Language,0.5
+birth Date_version,0.426325730207
+birth Date_ Mx4ri WVFR6HJSpa Ea Hrc WS3MSA,0.333596784506
+birth Date_parent Feature,0.709663596865
+birth Date_Digital Atlas of the Roman Empire ID,0.612518586181
+birth Date_sex or gender,0.580696673981
+birth Date_convicted of,0.0
+birth Date_NLR (Romania) identifier,0.363636363636
+birth Date_topic's main Wikimedia portal,0.42921584791
+birth Date_main subject,0.71487061508
+birth Date_FIPS 10-4 (countries and regions),0.0
+birth Date_is Defined By,0.0
+birth Date_page,0.651718727421
+birth Date_box office,0.597716098839
+birth Date_area,0.519264684632
+birth Date_name,0.651718727421
+birth Date_Facebook Places ID,0.478126032277
+birth Date_nominated for,0.0
+birth Date_given name,0.583424580121
+birth Date_is a list of,0.499723510798
+birth Date_date of death,0.902957206657
+birth Date_People Australia identifier,0.416497020078
+birth Date_long,0.0
+birth Date_BiblioNet author identifier,0.518099116405
+birth Date_ Mx4r Nv0nbm4 TTj Op7yhmnz Oyqg,0.0
+birth Date_created,0.0
+birth Date_Netflix identifier,0.363636363636
+birth Date_valid from,0.0
+birth Date_type,0.689222111058
+birth Date_follows,0.0
+birth Date_country Code,0.459579622244
+birth Date_running time,0.692477364622
+birth Date_ISNI,0.0
+birth Date_inception,0.628868918596
+birth Date_SUDOC authorities,0.682475617941
+birth Date_in region,0.556047004702
+birth Date_ Mx4rw LSVCpwp Eb Gdrc N5Y29yc A,0.489393041872
+birth Date_NLA (Australia) identifier,0.363636363636
+birth Date_is Primary Topic Of,0.470411945443
+birth Date_lat,0.259632342316
+birth Date_category of associated people,0.389375497643
+birth Date_feature Code,0.467565414743
+birth Date_date of birth,0.974677990813
+birth Date_archives at,0.491376188897
+birth Date_followed by,0.0
+birth Date_educated at,0.491376188897
+birth Date_military branch,0.619029505173
+birth Date_OpenPlaques subject identifier,0.538133257761
+birth Date_coat of arms image,0.644250215501
+birth Date_BNE identifier,0.363636363636
+birth Date_Discogs artist ID,0.582177475261
+birth Date_Wikivoyage banner,0.417473699751
+birth Date_cast member,0.689699733827
+birth Date_AlloCin̩ movie ID,0.0
+birth Date_postal code,0.382684814411
+birth Date_US Federal Election Commission identifier,0.484120793025
+birth Date_capital of,0.392304453254
+birth Date_producer,0.689222111058
+birth Date_image,0.731315075943
+birth Date_IMDb identifier,0.363636363636
+birth Date_PORT film ID,0.514774708506
+birth Date_director of photography,0.623641105998
+birth Date_National Portrait Gallery (London) person identifier,0.560715208766
+birth Date_located in time zone,0.644626142524
+birth Date_country,0.489393041872
+birth Date_version Info,0.426696916285
+birth Date_FSK film rating,0.534423382742
+birth Date_sitelinks,0.0
+birth Date_relative,0.778897026947
+birth Date_contains administrative territorial entity,0.425571854193
+birth Date_EGAXA identifier,0.363636363636
+birth Date_population,0.489393041872
+birth Date_date Modified,0.629655664876
+birth Date_alt Label,0.504916954651
+birth Date_FAST-ID,0.0
+birth Date_in country,0.489393041872
+birth Date_composer,0.618092084891
+birth Date_official name,0.671665547486
+birth Date_ISO 3166-2 code,0.368128898969
+birth Date_category for people born here,0.551020414116
+birth Date_disambiguation Hint,0.403048919616
+birth Date_name in native language,0.656260600452
+birth Date_MusicBrainz area ID,0.467971344101
+birth Date_continent,0.447740363773
+birth Date_category for people who died here,0.434146430272
+birth Date_instance of,0.642788775562
