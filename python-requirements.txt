@@ -20,15 +20,15 @@ nltk_data
 
 
 Install a Python Dependency 
-(numpy, networkx ...)
+(e.g. numpy, networkx ...)
 
 $pip install dependency_name
 
 
 Install Sematch
 Sematch provides a Python framework which implements many state-of-art concept-to-concept similarity metrics, 
-and also a word-to-word similarity wrapper which is based on one given concept-to-concept metric.
-https://github.com/gsi-upm/sematch
+and also a word-to-word similarity wrapper which is based on one given concept-to-concept metric. 
+More details see https://github.com/gsi-upm/sematch
 
 $pip install sematch
 $python -m sematch.download
